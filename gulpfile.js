@@ -19,7 +19,8 @@ global.$ = {
         },
         sprite: {
             srcPng: "./app/img/icons_png",
-            srcSvg: "./app/img/icons_svg"
+            srcSvg: "./app/img/icons_svg",
+            srcSvgCol: "./app/img/icons_svg_col"
         }
 };
 

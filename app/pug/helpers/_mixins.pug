@@ -2,8 +2,15 @@
 mixin icon(name,mod)
 	- mod = mod || ''
 	svg(class="icon icon-" + name + ' ' + mod)
-		use(xlink:href="i/sprite/sprite.svg#" + name)
+		use(xlink:href="img/sprite.svg#" + name)
 //- ---- end svg-icon mixin -----//
+
+//- ---- color-svg-icon mixin -----//
+mixin icon-color(name,mod)
+	- mod = mod || ''
+	svg(class="icon icon-" + name + ' ' + mod)
+		use(xlink:href="img/sprite-color.svg#" + name)
+//- ---- color-end svg-icon mixin -----//
 
 //- ---- header -----//
 mixin header
