@@ -23,7 +23,7 @@ module.exports = function() {
             sprite: "../sprite.svg",
             render: {
               scss: {
-                dest: "../../sass/_svg-sprite.scss",
+                dest: "../../sass/helpers/_svg-sprite.scss",
                 template: $.path.src + "/sass/templates/_sprite_template.scss"
               }
             }

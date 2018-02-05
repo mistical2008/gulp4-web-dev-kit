@@ -21,7 +21,7 @@ module.exports = function () {
             .pipe($.gulp.dest($.path.src + '/img'));
 
         var cssStream = spriteData.css
-            .pipe($.gulp.dest($.path.src + '/sass'));
+            .pipe($.gulp.dest($.path.src + '/sass/helpers'));
 
         // Return a merged stream to handle both `end` events
         return $.merge(imgStream, cssStream);

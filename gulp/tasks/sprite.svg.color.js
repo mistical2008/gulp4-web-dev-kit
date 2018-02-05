@@ -15,7 +15,7 @@ module.exports = function() {
             sprite: "../sprite-color.svg",
             render: {
               scss: {
-                dest: "../../sass/_svg-sprite-col.scss",
+                dest: "../../sass/helpers/_svg-sprite-col.scss",
                 template: $.path.src + "/sass/templates/_sprite_template.scss"
               }
             }
